@@ -44,3 +44,6 @@ class ESPNClient:
     def get_team_news(self, league: str, team_id: str) -> dict[str, Any]:
         url = f"{self.base_url}/football/{league}/teams/{team_id}/news"
         return self.get_json(url)
+
+    def close(self) -> None:
+        self.client.close()
