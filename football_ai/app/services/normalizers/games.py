@@ -1,0 +1,1 @@
+"""Game normalization utilities placeholder."""

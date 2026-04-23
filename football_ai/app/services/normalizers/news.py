@@ -1,0 +1,1 @@
+"""News normalization utilities placeholder."""
